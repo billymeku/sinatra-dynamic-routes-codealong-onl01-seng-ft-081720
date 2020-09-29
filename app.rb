@@ -20,6 +20,6 @@ class App < Sinatra::Base
   end
   
    get '/multiply' do
-      multiply = Multiply.new()
+      multiply =  Multiply.new(num1: params[:num1], num2: params[:num2])
   end
 end
