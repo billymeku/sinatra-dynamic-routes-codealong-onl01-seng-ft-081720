@@ -20,7 +20,7 @@ class App < Sinatra::Base
   end
   
    get 'multiply':num1/:num2 do
-      multiply =  Multiply.new(num1: params[:num1], num2: params[:num2])
-      multiply = [:num1]*[:num2],
-  end
+  #     multiply =  Multiply.new(num1: params[:num1], num2: params[:num2])
+  #     multiply = [:num1]*[:num2],
+  # end
 end
