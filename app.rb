@@ -18,5 +18,9 @@ class App < Sinatra::Base
     @user_name = params[:name]
     "Goodbye, #{@user_name}."
   end
-
+  
+   get "/multipy/:num1, :num2" do
+    @produact = params[:name]
+    "Goodbye, #{@user_name}."
+  end
 end
